@@ -1,8 +1,8 @@
 <p align="center">
-<a href="https://dashboard.smartproxy.com/?page=residential-proxies&utm_source=socialorganic&utm_medium=social&utm_campaign=resi_trial_GITHUB"><img src="https://i.imgur.com/opsHIEZ.png"</a>
+<a href="https://dashboard.decodo.com/?page=residential-proxies&utm_source=socialorganic&utm_medium=social&utm_campaign=resi_trial_GITHUB"><img src="https://github.com/user-attachments/assets/60bb48bd-8dcc-48b2-82c9-a218e1e4449c"></a>
 </p>
 
-[![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
+[![](https://dcbadge.vercel.app/api/server/Ja8dqKgvbZ)](https://discord.gg/Ja8dqKgvbZ)
 
 ## List of contents
 
@@ -25,7 +25,7 @@
 
 ## Introduction
 
-With Smartproxy API you will be able to access proxies and take full control over your account.
+With Decodo API you will be able to access proxies and take full control over your account.
 
 - Create, Update, Delete and set traffic limits for your proxy users
 - Pull out reports for traffic usage
@@ -33,12 +33,12 @@ With Smartproxy API you will be able to access proxies and take full control ove
 - Filter and list all endpoints with ports
 - Check the status of your current subscription
 
-Need more API code examples or information? Visit our [main documentation](https://help.smartproxy.com/reference). <br />
-Looking for something else? Visit our [General Repository](https://github.com/Smartproxy/Smartproxy/) for more fun.
+Need more API code examples or information? Visit our [main documentation](https://help.decodo.com/reference). <br />
+Looking for something else? Visit our [General Repository](https://github.com/Decodo/Decodo/) for more fun.
 
 ## Authentication
 
-API Link: https://api.smartproxy.com/v1/auth
+API Link: https://api.decodo.com/v1/auth
 
 ### Request
 
@@ -59,13 +59,13 @@ Take a note of or implement functionality to pass `user_id` and `token` paramete
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/authentication.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/authentication.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/authentication.java > authentication.java ``` |
-| PHP                 | [php/authentication.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/authentication.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/authentication.php > authentication.php ``` |
-| C#                 | [csharp/authentication.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/authentication.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/authentication.cs > authentication.cs ``` |
+| Java                  | [java/authentication.java](https://github.com/Decodo/Decodo-API/blob/master/java/authentication.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/authentication.java > authentication.java ``` |
+| PHP                 | [php/authentication.php](https://github.com/Decodo/Decodo-API/blob/master/php/authentication.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/authentication.php > authentication.php ``` |
+| C#                 | [csharp/authentication.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/authentication.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/authentication.cs > authentication.cs ``` |
 
 ## Get sub users
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
+API Link: https://api.decodo.com/v1/users/{userId}/sub-users
 
 ### Request
 
@@ -90,13 +90,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_subusers.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_subusers.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/get_subusers.java > get_subusers.java ``` |
-| PHP                 | [php/get_subusers.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_subusers.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_subusers.php > get_subusers.php ``` |
-| C#                 | [csharp/get_subusers.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_subusers.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_subusers.cs > get_subusers.cs ``` |
+| Java                  | [java/get_subusers.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_subusers.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/get_subusers.java > get_subusers.java ``` |
+| PHP                 | [php/get_subusers.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_subusers.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_subusers.php > get_subusers.php ``` |
+| C#                 | [csharp/get_subusers.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_subusers.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_subusers.cs > get_subusers.cs ``` |
 
 ## Create subuser
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
+API Link: https://api.Decodo.com/v1/users/{userId}/sub-users
 
 ### Request
 
@@ -116,13 +116,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/create_subuser.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/create_subuser.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/create_subuser.java > create_subuser.java ``` |
-| PHP                 | [php/create_subuser.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/create_subuser.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/create_subuser.php > create_subuser.php ``` |
-| C#                 | [csharp/create_subuser.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/create_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/create_subuser.cs > create_subuser.cs ``` |
+| Java                  | [java/create_subuser.java](https://github.com/Decodo/Decodo-API/blob/master/java/create_subuser.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/create_subuser.java > create_subuser.java ``` |
+| PHP                 | [php/create_subuser.php](https://github.com/Decodo/Decodo-API/blob/master/php/create_subuser.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/create_subuser.php > create_subuser.php ``` |
+| C#                 | [csharp/create_subuser.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/create_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/create_subuser.cs > create_subuser.cs ``` |
 
 ## Update subuser
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
+API Link: https://api.decodo.com/v1/users/{userId}/sub-users
 
 ### Request
 
@@ -142,13 +142,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/update_subuser.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/update_subuser.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/update_subuser.java > update_subuser.java ``` |
-| PHP                 | [php/update_subuser.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/update_subuser.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/update_subuser.php > update_subuser.php ``` |
-| C#                 | [csharp/update_subuser.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/update_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/update_subuser.cs > update_subuser.cs ``` |
+| Java                  | [java/update_subuser.java](https://github.com/Decodo/Decodo-API/blob/master/java/update_subuser.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/update_subuser.java > update_subuser.java ``` |
+| PHP                 | [php/update_subuser.php](https://github.com/Decodo/Decodo-API/blob/master/php/update_subuser.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/update_subuser.php > update_subuser.php ``` |
+| C#                 | [csharp/update_subuser.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/update_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/update_subuser.cs > update_subuser.cs ``` |
 
 ## Get sub user traffic
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users/{username}/traffic
+API Link: https://api.decodo.com/v1/users/{userId}/sub-users/{username}/traffic
 
 ### Request
 
@@ -166,13 +166,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users/{username}/traf
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_subuser_traffic.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_subuser_traffic.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/get_subuser_traffic.java > get_subuser_traffic.java ``` |
-| PHP                 | [php/get_subuser_traffic.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_subuser_traffic.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_subuser_traffic.php > get_subuser_traffic.php ``` |
-| C#                 | [csharp/get_subuser_traffic.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_subuser_traffic.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_subuser_traffic.cs > get_subuser_traffic.cs ``` |
+| Java                  | [java/get_subuser_traffic.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_subuser_traffic.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/get_subuser_traffic.java > get_subuser_traffic.java ``` |
+| PHP                 | [php/get_subuser_traffic.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_subuser_traffic.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_subuser_traffic.php > get_subuser_traffic.php ``` |
+| C#                 | [csharp/get_subuser_traffic.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_subuser_traffic.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_subuser_traffic.cs > get_subuser_traffic.cs ``` |
 
 ## Delete subuser
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users/{sub_user_id}
+API Link: https://api.decodo.com/v1/users/{userId}/sub-users/{sub_user_id}
 
 ### Request
 
@@ -188,13 +188,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/sub-users/{sub_user_id}
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/delete_subuser.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/delete_subuser.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/delete_subuser.java > delete_subuser.java ``` |
-| PHP                 | [php/delete_subuser.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/delete_subuser.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/delete_subuser.php > delete_subuser.php ``` |
-| C#                 | [csharp/delete_subuser.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/delete_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/delete_subuser.cs > delete_subuser.cs ``` |
+| Java                  | [java/delete_subuser.java](https://github.com/Decodo/Decodo-API/blob/master/java/delete_subuser.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/delete_subuser.java > delete_subuser.java ``` |
+| PHP                 | [php/delete_subuser.php](https://github.com/Decodo/Decodo-API/blob/master/php/delete_subuser.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/delete_subuser.php > delete_subuser.php ``` |
+| C#                 | [csharp/delete_subuser.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/delete_subuser.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/delete_subuser.cs > delete_subuser.cs ``` |
 
 ## Get whitelisted IPs
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips
+API Link: https://api.decodo.com/v1/users/{userId}/whitelisted-ips
 
 ### Request
 
@@ -217,13 +217,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_whitelisted_ips.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_whitelisted_ips.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/get_whitelisted_ips.java > get_whitelisted_ips.java ``` |
-| PHP                 | [php/get_whitelisted_ips.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_whitelisted_ips.php > get_whitelisted_ips.php ``` |
-| C#                 | [csharp/get_whitelisted_ips.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_whitelisted_ips.cs > get_whitelisted_ips.cs ``` |
+| Java                  | [java/get_whitelisted_ips.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_whitelisted_ips.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/get_whitelisted_ips.java > get_whitelisted_ips.java ``` |
+| PHP                 | [php/get_whitelisted_ips.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_whitelisted_ips.php > get_whitelisted_ips.php ``` |
+| C#                 | [csharp/get_whitelisted_ips.php](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_whitelisted_ips.cs > get_whitelisted_ips.cs ``` |
 
 ## Add whitelisted IPs
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips
+API Link: https://api.decodo.com/v1/users/{userId}/whitelisted-ips
 
 ### Request
 
@@ -243,13 +243,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/add_whitelisted_ips.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/add_whitelisted_ips.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/add_whitelisted_ips.java > add_whitelisted_ips.java ``` |
-| PHP                 | [php/add_whitelisted_ips.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/add_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/add_whitelisted_ips.php > add_whitelisted_ips.php ``` |
-| C#                 | [csharp/add_whitelisted_ips.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/add_whitelisted_ips.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/add_whitelisted_ips.cs > add_whitelisted_ips.cs ``` |
+| Java                  | [java/add_whitelisted_ips.java](https://github.com/Decodo/Decodo-API/blob/master/java/add_whitelisted_ips.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/add_whitelisted_ips.java > add_whitelisted_ips.java ``` |
+| PHP                 | [php/add_whitelisted_ips.php](https://github.com/Decodo/Decodo-API/blob/master/php/add_whitelisted_ips.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/add_whitelisted_ips.php > add_whitelisted_ips.php ``` |
+| C#                 | [csharp/add_whitelisted_ips.php](https://github.com/Decodo/Decodo-API/blob/master/csharp/add_whitelisted_ips.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/add_whitelisted_ips.cs > add_whitelisted_ips.cs ``` |
 
 ## Delete whitelisted IP
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips/{id}
+API Link: https://api.decodo.com/v1/users/{userId}/whitelisted-ips/{id}
 
 ### Request
 
@@ -265,13 +265,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/whitelisted-ips/{id}
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/delete_whitelisted_ip.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/delete_whitelisted_ip.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/delete_whitelisted_ip.java > delete_whitelisted_ip.java ``` |
-| PHP                 | [php/delete_whitelisted_ip.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/delete_whitelisted_ip.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/delete_whitelisted_ip.php > delete_whitelisted_ip.php ``` |
-| C#                 | [csharp/delete_whitelisted_ip.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/delete_whitelisted_ip.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/delete_whitelisted_ip.cs > delete_whitelisted_ip.cs ``` |
+| Java                  | [java/delete_whitelisted_ip.java](https://github.com/Decodo/Decodo-API/blob/master/java/delete_whitelisted_ip.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/delete_whitelisted_ip.java > delete_whitelisted_ip.java ``` |
+| PHP                 | [php/delete_whitelisted_ip.php](https://github.com/Decodo/Decodo-API/blob/master/php/delete_whitelisted_ip.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/delete_whitelisted_ip.php > delete_whitelisted_ip.php ``` |
+| C#                 | [csharp/delete_whitelisted_ip.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/delete_whitelisted_ip.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/delete_whitelisted_ip.cs > delete_whitelisted_ip.cs ``` |
 
 ## Get subscriptions
 
-API Link: https://api.smartproxy.com/v1/users/{userId}/subscriptions
+API Link: https://api.decodo.com/v1/users/{userId}/subscriptions
 
 ### Request
 
@@ -295,13 +295,13 @@ API Link: https://api.smartproxy.com/v1/users/{userId}/subscriptions
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_subscriptions.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_subscriptions.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/get_subscriptions.java > get_subscriptions.java ``` |
-| PHP                 | [php/get_subscriptions.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_subscriptions.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_subscriptions.php > get_subscriptions.php ``` |
-| C#                 | [csharp/get_subscriptions.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_subscriptions.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_subscriptions.cs > get_subscriptions.cs ``` |
+| Java                  | [java/get_subscriptions.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_subscriptions.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/get_subscriptions.java > get_subscriptions.java ``` |
+| PHP                 | [php/get_subscriptions.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_subscriptions.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_subscriptions.php > get_subscriptions.php ``` |
+| C#                 | [csharp/get_subscriptions.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_subscriptions.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_subscriptions.cs > get_subscriptions.cs ``` |
 
 ## Get endpoints
 
-API Link: https://api.smartproxy.com/v1/endpoints
+API Link: https://api.decodo.com/v1/endpoints
 
 ### Request
 
@@ -328,13 +328,13 @@ API Link: https://api.smartproxy.com/v1/endpoints
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_endpoints.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_endpoints.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/get_endpoints.java > get_endpoints.java ``` |
-| PHP                 | [php/get_endpoints.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_endpoints.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_endpoints.php > get_endpoints.php ``` |
-| C#                 | [csharp/get_endpoints.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_endpoints.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_endpoints.cs > get_endpoints.cs ``` |
+| Java                  | [java/get_endpoints.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_endpoints.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/get_endpoints.java > get_endpoints.java ``` |
+| PHP                 | [php/get_endpoints.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_endpoints.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_endpoints.php > get_endpoints.php ``` |
+| C#                 | [csharp/get_endpoints.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_endpoints.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_endpoints.cs > get_endpoints.cs ``` |
 
 ## Get endpoints by type
 
-API Link: https://api.smartproxy.com/v1/endpoints/{type}
+API Link: https://api.decodo.com/v1/endpoints/{type}
 
 ### Request
 
@@ -347,12 +347,12 @@ API Link: https://api.smartproxy.com/v1/endpoints/{type}
     [
       0:{
         "location":"Random"
-        "hostname":"gate.smartproxy.com"
+        "hostname":"gate.decodo.com"
         "port_range":"7000"
       }
       1:{
         "location":"Canada"
-        "hostname":"ca.smartproxy.com"
+        "hostname":"ca.decodo.com
         "port_range":"20000"
       }
     ]
@@ -361,16 +361,16 @@ API Link: https://api.smartproxy.com/v1/endpoints/{type}
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Java                  | [java/get_endpoints_by_type.java](https://github.com/Smartproxy/Smartproxy-API/blob/master/java/get_endpoints_by_type.java) |``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/java/java/get_endpoints_by_type.java > get_endpoints_by_type.java ``` |
-| PHP                 | [php/get_endpoints_by_type.php](https://github.com/Smartproxy/Smartproxy-API/blob/master/php/get_endpoints_by_type.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/php/get_endpoints_by_type.php > get_endpoints_by_type.php ``` |
-| C#                 | [csharp/get_endpoints_by_type.cs](https://github.com/Smartproxy/Smartproxy-API/blob/master/csharp/get_endpoints_by_type.cs)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Smartproxy-API/master/csharp/get_endpoints_by_type.cs > get_endpoints_by_type.cs ``` |
+| Java                  | [java/get_endpoints_by_type.java](https://github.com/Decodo/Decodo-API/blob/master/java/get_endpoints_by_type.java) |``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/java/java/get_endpoints_by_type.java > get_endpoints_by_type.java ``` |
+| PHP                 | [php/get_endpoints_by_type.php](https://github.com/Decodo/Decodo-API/blob/master/php/get_endpoints_by_type.php)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/php/get_endpoints_by_type.php > get_endpoints_by_type.php ``` |
+| C#                 | [csharp/get_endpoints_by_type.cs](https://github.com/Decodo/Decodo-API/blob/master/csharp/get_endpoints_by_type.cs)   | ``` curl https://raw.githubusercontent.com/Decodo/Decodo-API/master/csharp/get_endpoints_by_type.cs > get_endpoints_by_type.cs ``` |
 
 ## License
 
-All code is released under [MIT License](https://github.com/Smartproxy/Smartproxy/blob/master/LICENSE)
+All code is released under [MIT License](https://github.com/Decodo/Decodo/blob/master/LICENSE)
 
 ## Need help?
 
-Email - sales@smartproxy.com
-<br><a href="https://smartproxy.com">Live chat 24/7</a>
+Email - sales@decodo.com
+<br><a href="https://decodo.com">Live chat 24/7</a>
 
