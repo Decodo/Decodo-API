@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class add_whitelisted_ips
     {
@@ -13,9 +13,9 @@ namespace Smartproxy_API
             string userId = "";
             string token = "";
 
-            string data = "{\"IPAddressList\":[\"26.41.42.124\",\"56.14.14.124\"]}"; // You can add as much as you want and. 1 IP addition is also possible.
+            string data = "{\"IPAddressList\":[\"26.41.42.124\",\"56.14.14.124\"]}"; // You can add as much as you want, and 1 IP addition is also possible.
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/whitelisted-ips";
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/whitelisted-ips";
 
             byte[] dataBytes = Encoding.UTF8.GetBytes(data);
 
