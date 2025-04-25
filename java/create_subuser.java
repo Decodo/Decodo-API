@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class create_subuser {
 
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		
@@ -20,7 +20,7 @@ public class create_subuser {
 		
 		// Possible service types: residential_proxies, shared_proxies
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/sub-users");
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/sub-users");
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
