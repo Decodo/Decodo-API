@@ -9,11 +9,11 @@ import java.util.stream.Collectors;
 public class get_endpoints_by_type {
 
 	public static void main(String[] args) throws IOException {
-		// Token retrieved from Authentication part.
+		// Token retrieved from the Authentication part.
 		String token = "";
 		// Available types: random & rotating
 		String type = "random";
-		URL url = new URL("https://api.smartproxy.com/v1/endpoints/"+type);
+		URL url = new URL("https://api.decodo.com/v1/endpoints/"+type);
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
