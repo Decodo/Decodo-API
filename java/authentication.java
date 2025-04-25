@@ -14,7 +14,7 @@ public class authentication {
 		String userCredentials = "username:password"; // Your Smartproxy credentials
 		String basicAuth = Base64.getEncoder().encodeToString(userCredentials.getBytes(StandardCharsets.UTF_8));
 
-		URL url = new URL("https://api.smartproxy.com/v1/auth");
+		URL url = new URL("https://api.decodo.com/v1/auth");
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
