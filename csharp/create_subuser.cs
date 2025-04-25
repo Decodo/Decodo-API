@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class create_subuser
     {
@@ -13,7 +13,7 @@ namespace Smartproxy_API
             string userId = "";
             string token = "";
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/sub-users";
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/sub-users";
 
             // Change null accordingly to the parameter, if you want to create shared_proxy user change the service_type
 
