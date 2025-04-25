@@ -9,12 +9,12 @@ import java.util.stream.Collectors;
 public class delete_whitelisted_ip {
 
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		int id = 0; // Received from Get Whitelisted IPs part.
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/whitelisted-ips/"+id);
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/whitelisted-ips/"+id);
 				
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
