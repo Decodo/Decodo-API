@@ -5,7 +5,7 @@
 $userId = '';
 $token = '';
 
-$url = 'https://api.smartproxy.com/v1/users/' . $userId . '/whitelisted-ips';
+$url = 'https://api.decodo.com/v1/users/' . $userId . '/whitelisted-ips';
 
 $ch = curl_init();
 
