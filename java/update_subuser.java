@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class update_subuser {
 	
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		int subuserId = 0; // Retrieved from "Get Subusers"
@@ -19,7 +19,7 @@ public class update_subuser {
 		// Details of the subuser you wish to change
 		String payload = "{\"password\":\"new_password\",\"traffic_limit\":0}";
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/sub-users/"+subuserId);
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/sub-users/"+subuserId);
 				
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
