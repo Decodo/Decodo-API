@@ -9,12 +9,12 @@ import java.util.stream.Collectors;
 public class delete_subuser {
 
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		int subuserId = 0; // Received from Get Subusers part.
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/sub-users/"+subuserId);
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/sub-users/"+subuserId);
 				
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
