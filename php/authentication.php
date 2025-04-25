@@ -1,6 +1,6 @@
 <?php
 
-$url = 'https://api.smartproxy.com/v1/auth';
+$url = 'https://api.decodo.com/v1/auth';
 
 // Your smartproxy credentials
 
