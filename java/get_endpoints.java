@@ -1,4 +1,4 @@
-package smartproxy_api;
+package decodo_api;
 
 import java.io.BufferedReader;
 import java.io.IOException;
