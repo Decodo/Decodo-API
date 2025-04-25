@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class get_endpoints_by_type
     {
@@ -12,7 +12,7 @@ namespace Smartproxy_API
             string token = "";
             string type = ""; // sticky/random available, also can be obtained from get_endpoints.cs
 
-            string uri = "https://api.smartproxy.com/v1/endpoints/" + type;
+            string uri = "https://api.decodo.com/v1/endpoints/" + type;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
