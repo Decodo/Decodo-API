@@ -5,7 +5,7 @@
 $userId = '';
 $token = '';
 
-$url = 'https://api.smartproxy.com/v1/endpoints';
+$url = 'https://api.decodo.com/v1/endpoints';
 
 $ch = curl_init();
 
