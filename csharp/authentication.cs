@@ -2,15 +2,15 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class authentication
     {
         static void Main(string[] args)
         {
-            string uri = "https://api.smartproxy.com/v1/auth";
+            string uri = "https://api.decodo.com/v1/auth";
 
-            // Your Smartporxy credentials
+            // Your Decodo credentials
             string username = "";
             string password = "";
 
