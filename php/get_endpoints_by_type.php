@@ -5,7 +5,7 @@
 $userId = '';
 $token = '';
 $type = ''; // types can be acquired by calling "Get Endpoints"
-$url = 'https://api.smartproxy.com/v1/endpoints/' . $type;
+$url = 'https://api.decodo.com/v1/endpoints/' . $type;
 
 $ch = curl_init();
 
