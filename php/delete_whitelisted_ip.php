@@ -4,8 +4,8 @@
 
 $userId = '';
 $token = '';
-$id = ''; // id of your whitelisted ip, you can acquire them by requesting your IP list through API.
-$url = 'https://api.smartproxy.com/v1/users/' . $userId . '/whitelisted-ips/' . $id;
+$id = ''; // id of your whitelisted IP, you can acquire it by requesting your IP list through the API.
+$url = 'https://api.decodo.com/v1/users/' . $userId . '/whitelisted-ips/' . $id;
 
 $ch = curl_init();
 
