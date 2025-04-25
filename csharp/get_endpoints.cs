@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class get_endpoints
     {
