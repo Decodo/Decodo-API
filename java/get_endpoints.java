@@ -11,10 +11,10 @@ import java.util.stream.Collectors;
 public class get_endpoints {
 
 	public static void main(String[] args) throws IOException {
-		// Token retrieved from Authentication part.
+		// Token retrieved from the Authentication part.
 		String token = "";
 		
-		URL url = new URL("https://api.smartproxy.com/v1/endpoints");
+		URL url = new URL("https://api.decodo.com/v1/endpoints");
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
