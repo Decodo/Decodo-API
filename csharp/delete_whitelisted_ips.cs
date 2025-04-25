@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class delete_whitelisted_ips
     {
@@ -14,7 +14,7 @@ namespace Smartproxy_API
 
             int id = 73342; // Recieved from get_whitelisted_ips.cs
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/whitelisted-ips/" + id;
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/whitelisted-ips/" + id;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
