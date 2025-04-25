@@ -6,7 +6,7 @@ $userId = '';
 $token = '';
 $subUserId = 0; // Retrieved from Get Subusers
 
-$url = 'https://api.smartproxy.com/v1/users/' . $userId . '/sub-users/' . $subUserId;
+$url = 'https://api.decodo.com/v1/users/' . $userId . '/sub-users/' . $subUserId;
 
 $ch = curl_init();
 
