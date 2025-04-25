@@ -9,14 +9,14 @@ import java.util.stream.Collectors;
 public class get_subuser_traffic {
 
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		String username = ""; // Username of your subuser
-		String type = ""; // Date range, available types: 24h, month, 7days, custom. If custom type is selected you must provide String from and String to parameters.
+		String type = ""; // Date range, available types: 24h, month, 7 days, custom. If custom type is selected,d you must provide String from and String to parameters.
 		// to and from format yyyy-mm-dd
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/sub-users/"+username+"/traffic?type="+type);
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/sub-users/"+username+"/traffic?type="+type);
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
