@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class get_subuser_traffic
     {
@@ -13,9 +13,9 @@ namespace Smartproxy_API
             string token = "";
 
             string username = ""; // Subuser name
-            string queryParam = ""; // Available types: 24h, month, 7days, custom. If custom type is selected you must provide from and to parameters.
+            string queryParam = ""; // Available types: 24h, month, 7days, custom. If custom type is selected, you must provide from and to parameters.
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/sub-users/" + username + "/traffic?type=" + queryParam;
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/sub-users/" + username + "/traffic?type=" + queryParam;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
