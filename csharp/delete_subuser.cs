@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class delete_subuser
     {
@@ -13,7 +13,7 @@ namespace Smartproxy_API
             string token = "";
             int sub_user_id = null; // Recieved from get_subusers.cs
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/sub-users/" + sub_user_id;
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/sub-users/" + sub_user_id;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
