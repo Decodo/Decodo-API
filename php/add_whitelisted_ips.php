@@ -5,10 +5,10 @@
 $userId = "";
 $token = "";
 
-$url = 'https://api.smartproxy.com/v1/users/' . $userId . '/whitelisted-ips';
+$url = 'https://api.decodo.com/v1/users/' . $userId . '/whitelisted-ips';
 
 $data = [
-    "IPAddressList" => ["", ""] // You can add a single IP aswell
+    "IPAddressList" => ["", ""] // You can add a single IP as well
 ];
 
 $payload = json_encode($data);
