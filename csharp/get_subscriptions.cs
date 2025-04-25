@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Net;
 
-namespace Smartproxy_API
+namespace Decodo_API
 {
     class get_subscriptions
     {
@@ -12,7 +12,7 @@ namespace Smartproxy_API
             string userId = "";
             string token = "";
 
-            string uri = "https://api.smartproxy.com/v1/users/" + userId + "/subscriptions";
+            string uri = "https://api.decodo.com/v1/users/" + userId + "/subscriptions";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
