@@ -11,13 +11,13 @@ import java.util.stream.Collectors;
 public class add_whitelisted_ips {
 
 	public static void main(String[] args) throws IOException {
-		// Details retrieved from Authentication part.
+		// Details retrieved from the Authentication part.
 		String userId = "";
 		String token = "";
 		
 		String payload = "{\"IPAddressList\":[\"xx.xx.xx.xx\",\"xx.xx.xx.xx\"]}"; //Addition of only 1 IP is also possible
 		
-		URL url = new URL("https://api.smartproxy.com/v1/users/"+userId+"/whitelisted-ips");
+		URL url = new URL("https://api.decodo.com/v1/users/"+userId+"/whitelisted-ips");
 		
 		URLConnection connection = url.openConnection();
 		HttpURLConnection httpConn = (HttpURLConnection) connection;
